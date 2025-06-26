@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-
-#
 #  Deep Zoom Tools
 #
 #  Copyright (c) 2008-2019, Daniel Gasienica <daniel@gasienica.ch>
