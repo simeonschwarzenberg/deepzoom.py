@@ -1,0 +1,29 @@
+[project]
+name = "deepzoom"
+version = "2.0.0"
+description = "Python tools for generating Deep Zoom images (DZI) and collections (DZC) for the use with Silverlight Deep Zoom, Seadragon Ajax, Seadragon Mobile, and OpenZoom."
+authors = [
+    {name = "Daniel Gasienica", email = "daniel@gasienica.ch"}
+]
+license = {text = "BSD 3-Clause License"}
+readme = "README.md"
+keywords=["deepzoom", "seadragon", "dzi", "dzc", "seadragonajax", "seadragonmobile", "silverlightdeepzoom", "microsoft", "openzoom"]
+classifiers=[
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Utilities",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "pillow (>=10.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
